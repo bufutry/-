@@ -13,8 +13,15 @@
 		527AF2311CDB361F00854636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527AF2301CDB361F00854636 /* Assets.xcassets */; };
 		527AF2341CDB361F00854636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527AF2321CDB361F00854636 /* LaunchScreen.storyboard */; };
 		527AF23F1CDB361F00854636 /* drewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF23E1CDB361F00854636 /* drewTests.m */; };
-		527AF24D1CDB38A000854636 /* BFDrewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF24C1CDB38A000854636 /* BFDrewView.m */; };
-		527AF2501CDB401A00854636 /* BFBasePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF24F1CDB401A00854636 /* BFBasePath.m */; };
+		527AF24D1CDB38A000854636 /* BFDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF24C1CDB38A000854636 /* BFDrawView.m */; };
+		527AF2501CDB401A00854636 /* BFBaseStroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF24F1CDB401A00854636 /* BFBaseStroker.m */; };
+		52B6534F1CDC43F7005ABDD6 /* BFRubber.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6534E1CDC43F7005ABDD6 /* BFRubber.m */; };
+		52B653551CDC69AA005ABDD6 /* BFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B653541CDC69AA005ABDD6 /* BFBaseViewController.m */; };
+		52B653581CDC6A42005ABDD6 /* BFTabarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B653571CDC6A42005ABDD6 /* BFTabarController.m */; };
+		52B6535B1CDC6AE5005ABDD6 /* BFHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6535A1CDC6AE5005ABDD6 /* BFHomePageViewController.m */; };
+		52B6535F1CDC71FC005ABDD6 /* BFSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6535E1CDC71FC005ABDD6 /* BFSettingViewController.m */; };
+		52B653631CDC76CE005ABDD6 /* BFColorSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B653621CDC76CE005ABDD6 /* BFColorSlideView.m */; };
+		52B653671CDC7CB3005ABDD6 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B653661CDC7CB3005ABDD6 /* UIView+frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +47,25 @@
 		527AF23A1CDB361F00854636 /* drewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527AF23E1CDB361F00854636 /* drewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drewTests.m; sourceTree = "<group>"; };
 		527AF2401CDB361F00854636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		527AF24B1CDB38A000854636 /* BFDrewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDrewView.h; sourceTree = "<group>"; };
-		527AF24C1CDB38A000854636 /* BFDrewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDrewView.m; sourceTree = "<group>"; };
-		527AF24E1CDB401A00854636 /* BFBasePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFBasePath.h; sourceTree = "<group>"; };
-		527AF24F1CDB401A00854636 /* BFBasePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFBasePath.m; sourceTree = "<group>"; };
+		527AF24B1CDB38A000854636 /* BFDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDrawView.h; sourceTree = "<group>"; };
+		527AF24C1CDB38A000854636 /* BFDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDrawView.m; sourceTree = "<group>"; };
+		527AF24E1CDB401A00854636 /* BFBaseStroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFBaseStroker.h; sourceTree = "<group>"; };
+		527AF24F1CDB401A00854636 /* BFBaseStroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFBaseStroker.m; sourceTree = "<group>"; };
+		52B6534D1CDC43F7005ABDD6 /* BFRubber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRubber.h; sourceTree = "<group>"; };
+		52B6534E1CDC43F7005ABDD6 /* BFRubber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRubber.m; sourceTree = "<group>"; };
+		52B653531CDC69AA005ABDD6 /* BFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFBaseViewController.h; sourceTree = "<group>"; };
+		52B653541CDC69AA005ABDD6 /* BFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFBaseViewController.m; sourceTree = "<group>"; };
+		52B653561CDC6A42005ABDD6 /* BFTabarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTabarController.h; sourceTree = "<group>"; };
+		52B653571CDC6A42005ABDD6 /* BFTabarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFTabarController.m; sourceTree = "<group>"; };
+		52B653591CDC6AE5005ABDD6 /* BFHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFHomePageViewController.h; sourceTree = "<group>"; };
+		52B6535A1CDC6AE5005ABDD6 /* BFHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFHomePageViewController.m; sourceTree = "<group>"; };
+		52B6535D1CDC71FC005ABDD6 /* BFSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFSettingViewController.h; sourceTree = "<group>"; };
+		52B6535E1CDC71FC005ABDD6 /* BFSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFSettingViewController.m; sourceTree = "<group>"; };
+		52B653611CDC76CE005ABDD6 /* BFColorSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFColorSlideView.h; sourceTree = "<group>"; };
+		52B653621CDC76CE005ABDD6 /* BFColorSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFColorSlideView.m; sourceTree = "<group>"; };
+		52B653651CDC7CB3005ABDD6 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		52B653661CDC7CB3005ABDD6 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		52B653681CDC7DE3005ABDD6 /* drew-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "drew-PrefixHeader.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +107,8 @@
 		527AF2231CDB361F00854636 /* drew */ = {
 			isa = PBXGroup;
 			children = (
+				52B653641CDC7C86005ABDD6 /* category */,
+				52B653501CDC68A0005ABDD6 /* UI */,
 				527AF2491CDB386900854636 /* BFDrew */,
 				527AF2271CDB361F00854636 /* AppDelegate.h */,
 				527AF2281CDB361F00854636 /* AppDelegate.m */,
@@ -102,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				527AF2251CDB361F00854636 /* main.m */,
+				52B653681CDC7DE3005ABDD6 /* drew-PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,8 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				527AF24A1CDB387C00854636 /* VIew */,
-				527AF24E1CDB401A00854636 /* BFBasePath.h */,
-				527AF24F1CDB401A00854636 /* BFBasePath.m */,
+				527AF24E1CDB401A00854636 /* BFBaseStroker.h */,
+				527AF24F1CDB401A00854636 /* BFBaseStroker.m */,
+				52B6534D1CDC43F7005ABDD6 /* BFRubber.h */,
+				52B6534E1CDC43F7005ABDD6 /* BFRubber.m */,
 			);
 			path = BFDrew;
 			sourceTree = "<group>";
@@ -128,10 +155,68 @@
 		527AF24A1CDB387C00854636 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				527AF24B1CDB38A000854636 /* BFDrewView.h */,
-				527AF24C1CDB38A000854636 /* BFDrewView.m */,
+				527AF24B1CDB38A000854636 /* BFDrawView.h */,
+				527AF24C1CDB38A000854636 /* BFDrawView.m */,
 			);
 			path = VIew;
+			sourceTree = "<group>";
+		};
+		52B653501CDC68A0005ABDD6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52B6535C1CDC71DA005ABDD6 /* seting */,
+				52B653521CDC68E5005ABDD6 /* baseViewController */,
+				52B653511CDC68C1005ABDD6 /* homePage */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		52B653511CDC68C1005ABDD6 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				52B653591CDC6AE5005ABDD6 /* BFHomePageViewController.h */,
+				52B6535A1CDC6AE5005ABDD6 /* BFHomePageViewController.m */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		52B653521CDC68E5005ABDD6 /* baseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52B653531CDC69AA005ABDD6 /* BFBaseViewController.h */,
+				52B653541CDC69AA005ABDD6 /* BFBaseViewController.m */,
+				52B653561CDC6A42005ABDD6 /* BFTabarController.h */,
+				52B653571CDC6A42005ABDD6 /* BFTabarController.m */,
+			);
+			path = baseViewController;
+			sourceTree = "<group>";
+		};
+		52B6535C1CDC71DA005ABDD6 /* seting */ = {
+			isa = PBXGroup;
+			children = (
+				52B653601CDC7671005ABDD6 /* View */,
+				52B6535D1CDC71FC005ABDD6 /* BFSettingViewController.h */,
+				52B6535E1CDC71FC005ABDD6 /* BFSettingViewController.m */,
+			);
+			path = seting;
+			sourceTree = "<group>";
+		};
+		52B653601CDC7671005ABDD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52B653611CDC76CE005ABDD6 /* BFColorSlideView.h */,
+				52B653621CDC76CE005ABDD6 /* BFColorSlideView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52B653641CDC7C86005ABDD6 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				52B653651CDC7CB3005ABDD6 /* UIView+frame.h */,
+				52B653661CDC7CB3005ABDD6 /* UIView+frame.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,11 +318,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527AF24D1CDB38A000854636 /* BFDrewView.m in Sources */,
+				52B653671CDC7CB3005ABDD6 /* UIView+frame.m in Sources */,
+				527AF24D1CDB38A000854636 /* BFDrawView.m in Sources */,
 				527AF22C1CDB361F00854636 /* ViewController.m in Sources */,
+				52B653551CDC69AA005ABDD6 /* BFBaseViewController.m in Sources */,
 				527AF2291CDB361F00854636 /* AppDelegate.m in Sources */,
+				52B653581CDC6A42005ABDD6 /* BFTabarController.m in Sources */,
+				52B6535B1CDC6AE5005ABDD6 /* BFHomePageViewController.m in Sources */,
 				527AF2261CDB361F00854636 /* main.m in Sources */,
-				527AF2501CDB401A00854636 /* BFBasePath.m in Sources */,
+				527AF2501CDB401A00854636 /* BFBaseStroker.m in Sources */,
+				52B6534F1CDC43F7005ABDD6 /* BFRubber.m in Sources */,
+				52B6535F1CDC71FC005ABDD6 /* BFSettingViewController.m in Sources */,
+				52B653631CDC76CE005ABDD6 /* BFColorSlideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +390,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/drew/drew-PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -340,6 +434,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/drew/drew-PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -418,6 +514,7 @@
 				527AF2451CDB361F00854636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527AF2461CDB361F00854636 /* Build configuration list for PBXNativeTarget "drewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +523,7 @@
 				527AF2481CDB361F00854636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import "BFDrewView.h"
+#import "BFDrawView.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor  = [UIColor whiteColor];
-    [self.view addSubview:[[BFDrewView alloc] initWithFrame:self.view.frame]];
+    [self.view addSubview:[[BFDrawView alloc] initWithFrame:self.view.frame]];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
