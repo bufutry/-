@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525221961CE0889A00B3AA04 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 525221951CE0889A00B3AA04 /* libz.tbd */; };
+		525221981CE0897500B3AA04 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525221971CE0897500B3AA04 /* JavaScriptCore.framework */; };
 		527AF2261CDB361F00854636 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF2251CDB361F00854636 /* main.m */; };
 		527AF2291CDB361F00854636 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF2281CDB361F00854636 /* AppDelegate.m */; };
 		527AF22C1CDB361F00854636 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF22B1CDB361F00854636 /* ViewController.m */; };
@@ -22,6 +24,7 @@
 		52B6535F1CDC71FC005ABDD6 /* BFSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6535E1CDC71FC005ABDD6 /* BFSettingViewController.m */; };
 		52B653631CDC76CE005ABDD6 /* BFColorSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B653621CDC76CE005ABDD6 /* BFColorSlideView.m */; };
 		52B653671CDC7CB3005ABDD6 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B653661CDC7CB3005ABDD6 /* UIView+frame.m */; };
+		9192295B00600FCFAF1AB560 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853273E7D610B9FF7E96F9F8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		525221951CE0889A00B3AA04 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		525221971CE0897500B3AA04 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		527AF2211CDB361F00854636 /* drew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527AF2251CDB361F00854636 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		527AF2271CDB361F00854636 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +71,9 @@
 		52B653651CDC7CB3005ABDD6 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
 		52B653661CDC7CB3005ABDD6 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
 		52B653681CDC7DE3005ABDD6 /* drew-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "drew-PrefixHeader.pch"; sourceTree = "<group>"; };
+		65E1346DB5CAA64A4F4060DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		853273E7D610B9FF7E96F9F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		882E3B2F2D3030DF4873194D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525221981CE0897500B3AA04 /* JavaScriptCore.framework in Frameworks */,
+				525221961CE0889A00B3AA04 /* libz.tbd in Frameworks */,
+				9192295B00600FCFAF1AB560 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +97,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		477AC7A76C4F09C95B5A8315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E1346DB5CAA64A4F4060DE /* Pods.debug.xcconfig */,
+				882E3B2F2D3030DF4873194D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		527AF2181CDB361F00854636 = {
 			isa = PBXGroup;
 			children = (
+				525221951CE0889A00B3AA04 /* libz.tbd */,
 				527AF2231CDB361F00854636 /* drew */,
 				527AF23D1CDB361F00854636 /* drewTests */,
 				527AF2221CDB361F00854636 /* Products */,
+				477AC7A76C4F09C95B5A8315 /* Pods */,
+				9FF387C37AE45B6A38EB4B05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +242,15 @@
 			path = category;
 			sourceTree = "<group>";
 		};
+		9FF387C37AE45B6A38EB4B05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				525221971CE0897500B3AA04 /* JavaScriptCore.framework */,
+				853273E7D610B9FF7E96F9F8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527AF2431CDB361F00854636 /* Build configuration list for PBXNativeTarget "drew" */;
 			buildPhases = (
+				D22822945D6C74CF17728992 /* Check Pods Manifest.lock */,
 				527AF21D1CDB361F00854636 /* Sources */,
 				527AF21E1CDB361F00854636 /* Frameworks */,
 				527AF21F1CDB361F00854636 /* Resources */,
+				05DFB003319AE090702A68C4 /* Embed Pods Frameworks */,
+				786745C8CA055AAFA5AF64D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,6 +347,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05DFB003319AE090702A68C4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		786745C8CA055AAFA5AF64D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D22822945D6C74CF17728992 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		527AF21D1CDB361F00854636 /* Sources */ = {
@@ -451,6 +534,7 @@
 		};
 		527AF2441CDB361F00854636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E1346DB5CAA64A4F4060DE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = drew/Info.plist;
@@ -462,6 +546,7 @@
 		};
 		527AF2451CDB361F00854636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882E3B2F2D3030DF4873194D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = drew/Info.plist;

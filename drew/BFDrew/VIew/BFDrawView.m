@@ -61,6 +61,12 @@
     }
 }
 
+- (void)removeAll
+{
+    [_pathArrary removeAllObjects];
+    [self setNeedsDisplay];
+}
+
 #pragma mark - touch
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {

@@ -25,4 +25,5 @@
 @property (nonatomic ,weak) id<BFDrawViewDateSource>dateSource;
 
 - (void)undo;
+- (void)removeAll;
 @end
